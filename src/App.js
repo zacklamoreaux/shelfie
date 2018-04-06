@@ -14,22 +14,22 @@ class App extends Component {
         {
           name: 'shoes',
           price: '12',
-          imageUrl: ''
+          imageUrl: 'shoeImageHere'
         },
         {
-          name: 'shoes',
-          price: '12',
-          imageUrl: ''
+          name: 'socks',
+          price: '24',
+          imageUrl: 'sockImageHere'
         },
         {
-          name: 'shoes',
-          price: '12',
-          imageUrl: ''
+          name: 'pants',
+          price: '36',
+          imageUrl: 'pantImageHere'
         },
         {
-          name: 'shoes',
-          price: '12',
-          imageUrl: ''
+          name: 'shirt',
+          price: '48',
+          imageUrl: 'shirtImageHere'
         }]
     }
   }
