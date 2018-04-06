@@ -38,7 +38,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Dashboard list={this.state.inventoryList}/>
+        <Dashboard inventory={this.state.inventory}/>
         <Form />
         <Header />
       </div>
