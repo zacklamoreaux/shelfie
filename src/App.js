@@ -32,6 +32,7 @@ class App extends Component {
           imageUrl: 'shirtImageHere'
         }]
     }
+    console.log(this.state.inventory)
   }
 
 

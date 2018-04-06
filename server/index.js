@@ -6,6 +6,8 @@ var dotenv = require('dotenv').config()
 
 var app = express(bodyParser.json())
 
+app.get('/api/inventory', ctrl.getInventory)
+
 massive(process.env.connectionString).then( instance => {
   app.listen(port, () => console.log(`Server running on port: ${port}`))
 
