@@ -8,19 +8,19 @@ export default class Dashboard extends Component {
     }
 
     render() {
-      const list = this.props.inventory.map( (product, index) => {
+      const list = this.props.inventory.map( (product, id) => {
         return (
-          <h3 key={index}> {product.name} {product.price} {product.imageUrl} </h3>
+          <h3> <Product key={id} product={product}/> </h3>
         )
       })
       return (
         <div>
-          <Product />
           <ul>{list}</ul>
         </div>
       )
     }
   }
+          
 
 
 
